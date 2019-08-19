@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APITest">
+    <test name="Sample Tests" parallel="false" thread-count="1">
+        <packages>
+            <package name="com.project.qa.api.tests"/>
+        </packages>
+    </test>
+</suite>
